@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Sign Up</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <link href="../CSS/signUpForm.css""  rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Loot Ly</h1>
+        </header>
+        <section>
+            <div id="form-div">
+                <div id="heading">
+                    <h2>Create Your Account</h2>
+                </div>
+                <center>
+                    <form action="../PHP/signUpForm.php" method="POST">
+                        <input id="fname" name="fname" class="box" type="text" autocomplete="off" placeholder="First Name"><br>
+                        <input id="lname" class="box" type="text" autocomplete="off" placeholder="Last Name"><br>
+                        <input id="bday" class="box" type="date" autocomplete="off" placeholder="BirthDay" value="BirthDay"><br>
+                        <label class="box" style="font-size: 25px; text-align: left; border: none; margin-right: 10px;">Gender</label>
+                        <select name="gender" id="gender">
+                            <option>Male</option>
+                            <option>FeMale</option>
+                            <option>Others</option>
+                        </select><br>
+                        <input id="contactno" class="box" type="text" autocomplete="off" placeholder="Contact No"><br>
+                        <input id="email" class="box" type="email" autocomplete="off" placeholder="Email"><br>
+                        <input id="password" class="box" type="password" autocomplete="off" placeholder="Password"><br>
+                        <input id="submit" class="box" type="submit" name="submit" value="Submit" autocomplete="off">
+                    </form>
+                </center>
+            </div>  
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+    </body>
+</html>

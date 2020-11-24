@@ -1,0 +1,13 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
+footer a{
+    color: #CDCDCD;
+    font-size: 40px;
+}
