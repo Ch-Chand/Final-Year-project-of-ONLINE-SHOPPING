@@ -4,8 +4,8 @@ body{
 }
 
 #logo{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 70px;
 }
 footer a{
     color: #CDCDCD;
@@ -45,6 +45,11 @@ topbtn{
     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+a:hover{
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
